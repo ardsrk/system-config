@@ -1,6 +1,0 @@
-#!/usr/bin/env zsh
-
-cd $HOME/org-files
-git add .
-git commit -m "updates"
-git push origin master
