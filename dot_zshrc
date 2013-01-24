@@ -1,5 +1,5 @@
 export PKGCONFIG_PATH="/usr/local/lib/pkgconfig:/opt/local/lib/pkgconfig"
-export PATH=$HOME/redis/src:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin/:/opt/local/bin:$PATH
+export PATH=$HOME/redis/src:$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin/:/opt/local/bin:$PATH
 export SVN_EDITOR="vim"
 # number of lines kept in history
 export HISTSIZE=10000
