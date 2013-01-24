@@ -1,0 +1,4 @@
+.bin
+cscope.*
+tags
+.bundle

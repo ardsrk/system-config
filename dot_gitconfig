@@ -1,0 +1,11 @@
+[user]
+	name = Arvind Laxminarayan
+	email = ardsrk@gmail.com
+[alias]
+  cia = "commit -am"
+  co = "checkout"
+  st = "status -s"
+  stats = !git log --pretty=%aN | sort | uniq -c | sort -rn
+[global]
+  [color]
+    ui = true
