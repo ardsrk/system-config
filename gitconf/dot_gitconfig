@@ -6,6 +6,7 @@
   co = "checkout"
   st = "status -s"
   stats = !git log --pretty=%aN | sort | uniq -c | sort -rn
+  l = "!. ~/.githelpers && pretty_git_log"
 [global]
   [color]
     ui = true

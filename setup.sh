@@ -35,7 +35,8 @@ if using_rvm; then
 fi
 
 if using_git; then
-  cp dot_gitconfig $HOME/.gitconfig
+  cp gitconf/dot_gitconfig $HOME/.gitconfig
   git config --global core.excludesfile ~/.gitignore
-  cp dot_gitignore $HOME/.gitignore
+  cp gitconf/dot_gitignore $HOME/.gitignore
+  cp gitconf/dot_githelpers $HOME/.githelpers
 fi
