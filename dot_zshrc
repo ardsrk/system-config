@@ -99,7 +99,6 @@ alias aemacs='open /Applications/Aquamacs\ Emacs.app'
 alias tailf='tail -f'
 alias psax='ps ax'
 alias pp='pwd | pbcopy'
-alias ack='ack-grep'
 alias fx6='~/opt/firefoxes/firefox/firefox -no-remote -P firefox-6.0'
 alias jim='~/Jim/jim'
 alias refreshrbtags="ctags -f tags --recurse=yes . && find . -name '*.rb' -o -name '*.java' -o -name '*.css' -o -name '*.js' -o -name '*.haml' -o -name '*.erb' > cscope.files && cscope -b -q"
